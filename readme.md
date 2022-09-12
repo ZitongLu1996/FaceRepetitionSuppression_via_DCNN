@@ -1,3 +1,5 @@
+Step-by-step implementations:
+
 **A) EEG part - Facial representations and repetition suppression in human brains**:
 
 Step 1: EEG classification-based decoding
@@ -62,7 +64,7 @@ Step 6: Calculate Fatigue-modified DCNNs RDMs
 
 Step 7: Calculate Sharpening-modified DCNNs
 > run: dcnn/getrdms_sharpening.py, getrdms_sharpening_3faces.py, getrdms_random_sharpening.py, getrdms_random_sharpening_3faces.py  
-> output: dcnn/rdms_sharpening, rdms_sharpening_3faces, rdms_random_sharpening, rdms_random_sharpening_3faces  
+> output: dcnn/rdms_sharpening, rdms_sharpening_3faces, rdms_random_sharpening, rdms_random_sharpening_3faces
 > plot: plot/dcnn/plot_rdm_1350.py
 > figure: plot/dcnn/modifiedrdms
 
