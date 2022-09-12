@@ -45,27 +45,27 @@ Step 3: Calculate VGG-face RDMs & non-trained VGG RDMs (450 * 450 RDM for each l
 Step 4: Make model RDMs
 > run: models/dcnn/  
 > output: models/dcnn/modelrdm
-> plot: plot/model/dcnn/plot_model_rdms.py
+> plot: plot/model/dcnn/plot_model_rdms.py  
 > figure: plot/model/dcnn
 
 Step 5: RSA between DCNN RDMs and model RDMs
 > run: dcnn-model/corrs_cal.py  
 > output: dcnn-model/corrs
-> plot: plot/dcnn-model/plot_corrs.py
+> plot: plot/dcnn-model/plot_corrs.py  
 > figure: plot/dcnn-model/results
 
 **C) DCNN part2 - Modified DCNNs with two RS mechanisms**:
 
 Step 6: Calculate Fatigue-modified DCNNs RDMs
 > run: dcnn/getrdms_fatigue.py, getrdms_fatigue_3faces.py, getrdms_random_fatigue.py, getrdms_random_fatigue_3faces.py  
-> output: dcnn/rdms_fatigue, rdms_fatigue_3faces, rdms_random_fatigue, rdms_random_fatigue_3faces
-> plot: plot/dcnn/plot_rdm_1350.py
+> output: dcnn/rdms_fatigue, rdms_fatigue_3faces, rdms_random_fatigue, rdms_random_fatigue_3faces  
+> plot: plot/dcnn/plot_rdm_1350.py  
 > figure: plot/dcnn/modifiedrdms
 
 Step 7: Calculate Sharpening-modified DCNNs
 > run: dcnn/getrdms_sharpening.py, getrdms_sharpening_3faces.py, getrdms_random_sharpening.py, getrdms_random_sharpening_3faces.py  
-> output: dcnn/rdms_sharpening, rdms_sharpening_3faces, rdms_random_sharpening, rdms_random_sharpening_3faces
-> plot: plot/dcnn/plot_rdm_1350.py
+> output: dcnn/rdms_sharpening, rdms_sharpening_3faces, rdms_random_sharpening, rdms_random_sharpening_3faces  
+> plot: plot/dcnn/plot_rdm_1350.py  
 > figure: plot/dcnn/modifiedrdms
 
 **D) EEG-DCNN part - Comparisons between brains and DCNNs**:
